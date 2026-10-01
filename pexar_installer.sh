@@ -57,7 +57,7 @@ build_patch () {
 
     echo "Downloading smali.jar from ${SMALI}"
     wget -q --show-progress $SMALI -O tmp/smali.jar
-    echo "Downloading baksmali.jar from ${SMALI}"
+    echo "Downloading baksmali.jar from ${BAKSMALI}"
     wget -q --show-progress $BAKSMALI -O tmp/baksmali.jar
 
     echo "Pulling services.jar containing PackageManagerService... "
